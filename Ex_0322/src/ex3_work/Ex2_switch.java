@@ -43,6 +43,10 @@ public class Ex2_switch {
 			break;
 			
 		}
+		
+		//정수형 변수를 하나 입력받고 (1~12)
+		//해당 달의 일수를 switch문을 통해 작성하세요
+		//단 break는 3번만 사용할 것
 	}
 	
 }
