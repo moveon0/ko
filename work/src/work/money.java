@@ -21,5 +21,18 @@ public class money {
 			}
 		}
 		System.out.printf("동전의 개수는 %d개입니다.",count);
+		System.out.println();
+		System.out.println("-----------");
+		//강사님 풀이
+		int money1 = 4170;
+		//동전의 종류 500, 100, 50, 10
+		int [] coin1 = {500, 100, 50, 10};
+		
+		for (int i = 0; i < coin1.length; i++) {
+			int res = money1 / coin1[i];
+			System.out.println(coin1[i] + "원 : " + res);
+			money1 %= coin[i];
+			
+		}
 	}
 }
