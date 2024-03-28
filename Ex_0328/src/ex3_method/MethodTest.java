@@ -29,4 +29,19 @@ public class MethodTest {
 		}
 		return max;
 	}
+	
+	//main에서 반지름을 전달받아 원의 넓이를 구하는 circleArea
+	//원의 넓이(r*r*3.14)
+	
+	public double circleArea(double r) {
+		return r*r*3.14;
+	}
+	
+	
+	//main에서 반지름을 전달받아 원의 둘레를 구하는 circleRound
+	//원의 둘레(2*3.14*r)
+	
+	public double circleRound(double r) {
+		return 2*r*3.14;
+	}
 }

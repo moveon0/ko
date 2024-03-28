@@ -11,8 +11,12 @@ public class MethodMain {
 		System.out.println(a);
 		
 		mt.sum(5);
-		int [] arr = {3,6,1,2,5};
 		
-		System.out.println(mt.maxFinder(arr));
+		int [] arr = {3,6,1,2,5};
+		System.out.println("최대값 : "+mt.maxFinder(arr));
+		
+		System.out.printf("원의 넓이 : %.2f \n 원의 둘레 : %.2f",mt.circleArea(3),mt.circleRound(3));
+		
 	}
+	
 }
