@@ -7,20 +7,44 @@ public class TempMethod {
 	
 	//화씨 = 1.8 * 섭씨 + 32;
 	//섭씨 = (화씨 - 32) / 1.8;
-	Scanner sc = new Scanner(System.in);
 	
-	public double fahrenheitToCelsius() {
-		System.out.println("온도를 입력하세요 : ");
-		Scanner sc = new Scanner(System.in);
-		double temp = sc.nextDouble();
-		return (temp - 32) / 1.8;
+	Scanner sc = new Scanner(System.in);
+	public void start(Scanner sc) {
+		int n = sc.nextInt();
+		switch(n) {
+		case 1:
+			
+			fahrenheitToCelsius(sc);
+			break;
+		case 2:
+			celsiusToFahrenheit(sc); 
+			break;
+	}}
+	
+	
+	public void fahrenheitToCelsius(Scanner sc) {
+		double father;
+		double cel;
+		
+		System.out.println("화씨를 입력하세요 : ");
+		father = sc.nextInt();
+		
+		cel = (father - 32) / 1.8;
+		
+		System.out.println("섭씨로 변화된 온도는 "+cel + "도입니다.");
+		
 	}
 	
-	public double celsiusToFahrenheit() {
-		System.out.println("온도를 입력하세요 : ");
-		Scanner sc = new Scanner(System.in);
-		double temp = sc.nextDouble();
-		return 1.8 * temp + 32;
+	public void celsiusToFahrenheit(Scanner sc) {
+		double cel;
+		double father;
+		
+		System.out.println("섭씨를 입력하세요 : ");
+		cel = sc.nextInt();
+		
+		father = 1.8 * cel + 32;
+		
+		System.out.println("화씨로 변화된 온도는 "+father + "도입니다.");
 	}
 	
 	
