@@ -13,6 +13,7 @@ public class Graph {
 			int n = rand.nextInt(10);
 			arr[i] = n;
 		}
+		
 		pg.PrintGraph(arr);
 	}
 }
