@@ -9,7 +9,8 @@ public class TempMethod {
 	//섭씨 = (화씨 - 32) / 1.8;
 	
 	Scanner sc = new Scanner(System.in);
-	public void start(Scanner sc) {
+	public void start() {
+		System.out.println("번호를 선택하세요 : ");
 		int n = sc.nextInt();
 		switch(n) {
 		case 1:
