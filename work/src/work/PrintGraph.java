@@ -1,7 +1,7 @@
 package work;
 //2차원 리스트 만들고 [~의개수][해당 숫자]
 //반복문으로 배열을 받고 2차원 리스트에 저장
-//count로 숫자 개수 세기df
+//count로 숫자 개수 세기dfs
 //배열의 크기만큼 .length 로 '#'출력
 public class PrintGraph {
 	public void PrintGraph(int [] arr) {
