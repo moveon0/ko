@@ -22,5 +22,21 @@ public class UpdownMain {
 		System.out.println(updown+"회 만에 맞혔습니다.");
 		
 		
+		//강사님 풀이
+		
+		while(true) {
+			System.out.print("숫자입력 : ");
+			int answer = ud.check(sc.nextInt());
+			if( answer == 1) {
+				System.out.println("정답!");
+				break;
+			} else if(answer == 2) {
+				System.out.println("up!");
+			} else {
+				System.out.println("down!");
+			}
+		}
+		
+		
 	}
 }

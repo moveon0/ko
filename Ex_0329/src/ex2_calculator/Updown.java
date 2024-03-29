@@ -28,4 +28,18 @@ public class Updown {
 		}
 		
 	}
+	
+	//강사님 풀이
+	
+	int rnum = random.nextInt(50)+1;
+	
+	public int check(int number) {
+		if(rnum == number) {
+			return 1;
+		} else if(rnum > number) {
+			return 2;
+		} else {
+			return 3;
+		}
+	}
 }
