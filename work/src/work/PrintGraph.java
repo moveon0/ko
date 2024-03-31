@@ -45,9 +45,9 @@ public class PrintGraph {
 				}
 			}
 		
+		int a = 0;
 		for (int i =0; i < 10; i++) {
 			System.out.printf("%d의 갯수 : ",i);
-			int a = 0;
 			for(int j = 0; j < c[a]; j++) {
 				System.out.print("#");
 			}
