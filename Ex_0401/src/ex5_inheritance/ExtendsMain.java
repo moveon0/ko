@@ -3,7 +3,7 @@ package ex5_inheritance;
 public class ExtendsMain {
 	public static void main(String[] args) {
 		Child c1 = new Child();
-		//자식은 부모의 재산을 사용할 수 있다.
+		//자식은 부모의 재산을 사용할 수 있다.s
 		System.out.println(c1.car);
 		System.out.println(c1.money);
 		System.out.println(c1.home);

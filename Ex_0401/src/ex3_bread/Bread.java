@@ -4,7 +4,7 @@ public class Bread {
 	public void makebread() {
 		System.out.println("빵을 만들었습니다.");
 	}
-	
+	//s
 	public void makebread(int n) {
 		for( int i = 0; i < n; i++) {
 			System.out.println("빵을 만들었습니다.");

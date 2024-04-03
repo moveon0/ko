@@ -1,5 +1,5 @@
 package ex4_static;
-
+//s
 public class BankMain {
 	public static void main(String[] args) {
 		Bank b1 = new Bank("부평","032-111-1111");

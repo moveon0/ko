@@ -1,7 +1,7 @@
 package ex4_static;
 
 public class Bank {
-	//static변수
+	//static변수s
 	//static : 정적인, 고정적이란 뜻
 	//객체마다 바뀌는 것이 아닌 클래스에 고정되어 있는 변수나 메서드
 	

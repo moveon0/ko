@@ -7,5 +7,5 @@ public class StudentMain {
 		System.out.println(s1.age);
 		System.out.println(s1.studentID);
 		
-	}
+	}//s
 }
