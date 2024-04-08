@@ -7,7 +7,7 @@ public class GenMain {
 		
 		System.out.println(v1.getValue());
 		
-		//제네릭타입은 기본 자료형을 인식하지 않는다.
+		//제네릭타입은 기본 자료형을 인식하지 않는다.ㄴ
 		//따라서 Wrapper클래스를 사용해야 한다.
 		GenEx<Integer> v2 = new GenEx<>();
 		v2.setValue(100);

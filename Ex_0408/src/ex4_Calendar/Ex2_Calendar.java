@@ -22,7 +22,7 @@ public class Ex2_Calendar {
 		//달의 마지막 날짜를 구함
 		int lastOfDate = cal.getActualMaximum(Calendar.DATE);
 		
-		//지정한 달의 시작 요일을 구함 (1이 일요일 7이 토요일)
+		//지정한 달의 시작 요일을 구함 (1이 일요일 7이 토요일)ㄴ
 		int week = cal.get(Calendar.DAY_OF_WEEK);
 		
 		

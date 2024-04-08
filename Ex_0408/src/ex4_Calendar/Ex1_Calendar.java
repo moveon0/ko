@@ -5,7 +5,7 @@ import java.util.Calendar;
 public class Ex1_Calendar {
 	public static void main(String[] args) {
 		//java.util패키지에 있는 날짜와 시간 정보를 제공하는 클래스
-		//객체를 만들 때 new 키워드를 이용하여 선언하지 않고 생성된 객체를 받아오는 식으로 선언한다.
+		//객체를 만들 때 new 키워드를 이용하여 선언하지 않고 생성된 객체를 받아오는 식으로 선언한다.ㄴ
 		
 		Calendar cal = Calendar.getInstance();
 		

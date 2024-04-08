@@ -15,7 +15,7 @@ public class DataListExample {
 		
 		//데이터의 출력
 		for(int i = 0; i < list.size();i++) {
-			Object data = list.get(i);//data에 자동으로 형변환
+			Object data = list.get(i);//data에 자동으로 형변환ㄴ
 			
 			if(data instanceof Integer) {
 				System.out.println("정수 : "+(((int)data+1)));//data 가 Object 타입이므로 정수와 더하려면 int형으로 변환

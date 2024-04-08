@@ -1,5 +1,5 @@
 package ex5_generic;
-
+//ㄴ
 public class Gen2Main {
 	public static void main(String[] args) {
 		Integer[] iArr = {1,2,3,4,5};

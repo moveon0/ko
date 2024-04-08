@@ -1,5 +1,5 @@
 package ex1_StringBuilder;
-//StringBuilder / StringBuffer
+//StringBuilder / StringBufferㄴ
 
 /*
  * String클래스는 최초 지정된 문자열 이후에 값이 추가되면 내부적으로 새로운 메모리를 할당해 새롭게 문자열을 등록한다.
