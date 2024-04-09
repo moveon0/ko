@@ -1,4 +1,10 @@
 package ex5_generic;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+
 //Gen클래스에 제네릭 타입 <T>를 갖는 printArr메서드를 만든다.
 //printArr메서드 내부에서 배열을 순차적으로 출력하는 코드 작성
 //Gen2Main클래스를 만들어서 Integer[], Double[], Character[]를
@@ -17,6 +23,14 @@ public class Gen {
 		}
 		System.out.println();
 		
+		Set<Integer> set = new HashSet<>(list);
+		
+		Iterator<Integer> iter2 = set.iterator();
+		
+		while(iter2.hasNext()) {
+			int val = iter2.next();
+			System.out.println(val_+" ");
+		}
 	
 	}
 }
