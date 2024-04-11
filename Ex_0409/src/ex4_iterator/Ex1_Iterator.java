@@ -25,3 +25,12 @@ public class Ex1_Iterator {
 		}
 	}
 }
+// 컬렉션 프레임워크
+
+//리스트(Linked list) -> 매번 만들어야됨
+
+//ArrayList
+
+/*
+ * 
+ */
