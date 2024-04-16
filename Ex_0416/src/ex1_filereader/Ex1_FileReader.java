@@ -9,7 +9,7 @@ public class Ex1_FileReader {
 			int code = 0;
 			
 			while((code=fr.read()) != -1) {
-				System.out.print((char)code);//한글도 알아서 처리해줌
+				System.out.print((char)code);//한글도 알아서 처리해줌ㄴ
 			}
 			
 			fr.close();

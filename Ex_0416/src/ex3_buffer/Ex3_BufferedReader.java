@@ -7,7 +7,7 @@ public class Ex3_BufferedReader {
 	public static void main(String[] args) throws Exception{//thorws Exception하면 try문 안써도 됨
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		/*try {
-			System.out.print("문자열 입력 : ");
+			System.out.print("문자열 입력 : ");ㄴ
 			String input = br.readLine();
 			System.out.println("값 : " + input);
 		} catch (Exception e) {

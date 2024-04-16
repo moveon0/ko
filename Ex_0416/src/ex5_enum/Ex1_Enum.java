@@ -7,7 +7,7 @@ public class Ex1_Enum {
 		Item[] items = Item.values();
 		System.out.println(Arrays.toString(items));
 		
-		//열거형의 순서 반환해보기
+		//열거형의 순서 반환해보기ㄴ
 		for(Item item : items) {
 			System.out.println("name=" +item.name()+", ordinal = " + item.ordinal());
 		}

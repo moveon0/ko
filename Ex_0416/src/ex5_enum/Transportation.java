@@ -1,5 +1,5 @@
 package ex5_enum;
-
+//ㄴ
 public enum Transportation {
 	BUS(100){
 		@Override

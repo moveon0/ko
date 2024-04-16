@@ -2,7 +2,7 @@ package ex1_filereader;
 
 import java.io.FileReader;
 
-//text.txt에 아무 내용이나 적는다. 한글, 영어 대소문자
+//text.txt에 아무 내용이나 적는다. 한글, 영어 대소문자ㄴ
 //섞어 작성하고 test.txt의 내용을 읽어와서
 //영어 대문자와 소문자의 개수를 출력
 

@@ -1,5 +1,5 @@
 package ex2_filewriter;
-//Output과 FileWriter의 특징: 확장자를 마음대로 설정할 수 있다.
+//Output과 FileWriter의 특징: 확장자를 마음대로 설정할 수 있다.ㄴ
 import java.io.FileWriter;
 
 public class Ex1_FileWriter {

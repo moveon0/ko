@@ -1,5 +1,5 @@
 package ex5_enum;
-
+//ㄴ
 public class Ex3_Enum {
 	public static void main(String[] args) {
 		Transportation[] trans = Transportation.values();

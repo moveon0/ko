@@ -20,7 +20,7 @@ public class Ex1_InputStringReader {
 			in.close();
 			
 		} catch (Exception e) {
-			// TODO: handle exception
+			// TODO: handle exceptionㄴ
 		}
 	}
 }

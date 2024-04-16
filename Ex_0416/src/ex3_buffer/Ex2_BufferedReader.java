@@ -5,7 +5,7 @@ import java.io.FileReader;
 
 public class Ex2_BufferedReader {
 	public static void main(String[] args) {
-		//문자 기반의 보조스트림의 경우 버퍼에 데이터를 저장하여
+		//문자 기반의 보조스트림의 경우 버퍼에 데이터를 저장하여ㄴ
 		//입력 또는 출력하기 때문에 한 단어 뿐만 아니라 문장 단위로데이터를
 		//읽거나 쓸 수 있다.
 		FileReader reader = null;

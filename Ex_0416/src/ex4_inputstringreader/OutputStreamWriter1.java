@@ -23,7 +23,7 @@ public class OutputStreamWriter1 {
 			is.close();
 			out.close();
 		} catch (Exception e) {
-			// TODO: handle exception
+			// TODO: handle exceptionㄴ
 		}
 	}
 }
