@@ -1,5 +1,5 @@
 package ex3_Thread;
-
+//s
 class AddStackThread extends Thread{
 	private Storage storage;
 	public AddStackThread(Storage storage) {

@@ -1,5 +1,5 @@
 package ex2_Thread;
-
+//ㄴ
 public class ThreadInfo extends Thread{
 	@Override
 	public void run() {

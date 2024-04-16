@@ -4,7 +4,7 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.IntBinaryOperator;
 
-//메서드 참조
+//메서드 참조ㄴ
 //메서드를 참조해 매개변수의 정보 및 반환형을 알아내어
 //람다식에서 불필요한 매개변수를 제거하는 것
 //람다식이 하나의 메서드만 호출하는 경우 사용할 수 있다.

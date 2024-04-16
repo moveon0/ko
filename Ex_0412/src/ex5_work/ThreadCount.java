@@ -1,5 +1,5 @@
 package ex5_work;
-
+//s
 public class ThreadCount extends Thread {
     private int count;
 

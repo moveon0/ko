@@ -1,5 +1,5 @@
 package ex3_Thread;
-
+//s
 public class Storage {
 	private int stackCount = 10;
 	public synchronized void addStack(int stackCount) {

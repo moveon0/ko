@@ -1,5 +1,5 @@
 package ex4_demonThread;
-
+//s
 class MyDaemonRunnable implements Runnable{
 	@Override
 	public void run() {

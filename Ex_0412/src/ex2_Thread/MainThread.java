@@ -1,5 +1,5 @@
 package ex2_Thread;
-//스레드 우선순위 10이 첫번째 1이 마지막 , default: 5
+//스레드 우선순위 10이 첫번째 1이 마지막 , default: 5ㄴ
 public class MainThread {
 	public static void main(String[] args) {
 		ThreadInfo ti = new ThreadInfo();

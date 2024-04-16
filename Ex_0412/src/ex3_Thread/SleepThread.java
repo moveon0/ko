@@ -1,5 +1,5 @@
 package ex3_Thread;
-
+//s
 public class SleepThread extends Thread{
 	@Override
 	public void run() {
