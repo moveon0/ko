@@ -24,7 +24,7 @@ public class ChatClient {
 		pw.flush();
 		
 		
-		// 백그라운드 서버가 보내준 메시지를 읽어들여서 화면에 출력한다.
+		// 백그라운드 서버가 보내준 메시지를 읽어들여서 화면에 출력한다..
 		InputThread inputThread = new InputThread(br);
 		inputThread.start();
 

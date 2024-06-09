@@ -22,7 +22,7 @@ public class ChatThread extends Thread {
 		PrintWriter pw = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
 		this.br = br;
 		this.pw = pw;
-		this.name = br.readLine();// 닉네임읽기
+		this.name = br.readLine();// 닉네임읽기.
 		this.list = list;
 		this.list.add(this); // 챗클라를 리스트에
 
